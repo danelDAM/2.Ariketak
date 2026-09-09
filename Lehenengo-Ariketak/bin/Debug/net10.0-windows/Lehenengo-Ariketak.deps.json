@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Lehenengo-Ariketak/1.0.0": {
+        "runtime": {
+          "Lehenengo-Ariketak.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lehenengo-Ariketak/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿<Window x:Class="Lehenengo_Ariketak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lehenengo_Ariketak"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="306">
+    <Grid>
+        <Label Content="Lehen zenbakia" HorizontalAlignment="Left" Height="28" Margin="32,52,0,0" VerticalAlignment="Top" Width="121"/>
+        <Label Content="Bigarren zenbakia" HorizontalAlignment="Left" Height="28" Margin="32,102,0,0" VerticalAlignment="Top" Width="121"/>
+        <Label Content="Hirugarren zenbakia" HorizontalAlignment="Left" Height="28" Margin="32,152,0,0" VerticalAlignment="Top" Width="121"/>
+        <Label Content="Laugarren zenbakia" HorizontalAlignment="Left" Height="28" Margin="32,202,0,0" VerticalAlignment="Top" Width="121"/>
+        <TextBox x:Name="txtLehenengoZenbakia" HorizontalAlignment="Left" Height="28" Margin="158,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="113"/>
+        <TextBox x:Name="txtBigarrenZenbakia" HorizontalAlignment="Left" Height="28" Margin="158,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="113"/>
+        <TextBox x:Name="txtHirugarrenZenbakia" HorizontalAlignment="Left" Height="28" Margin="158,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="113"/>
+        <TextBox x:Name="txtLaugarrenZenbakia" HorizontalAlignment="Left" Height="28" Margin="158,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="113"/>
+        <Label Content="EMAITZA" HorizontalAlignment="Left" Height="28" Margin="32,277,0,0" VerticalAlignment="Top" Width="121"/>
+        <TextBox x:Name="txtEmaitza" HorizontalAlignment="Left" Height="28" Margin="158,277,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="113"/>
+        <Button Content="Irten" HorizontalAlignment="Left" Height="21" Margin="214,392,0,0" VerticalAlignment="Top" Width="70" Click="itxi_Click"/>
+        <Button Content="Garbitu" HorizontalAlignment="Center" Height="21" Margin="0,392,0,0" VerticalAlignment="Top" Width="70" Click="garbitu_Click"/>
+        <Button Content="Kalkulatu" HorizontalAlignment="Left" Height="21" Margin="22,392,0,0" VerticalAlignment="Top" Width="70" Click="Kalkulatu_Click"/>
+
+    </Grid>
+</Window>
