@@ -1,0 +1,74 @@
+﻿using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace HirugarrenAriketa
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private int[] zenbakiak = new int[4];
+        private int contador = 0;
+
+
+
+        private void hurrengoa(object sender, RoutedEventArgs e)
+        {
+            if (contador < 4)
+            {
+                contador++;
+
+                testuaTB.Text = contador.ToString() + ".zenbakia";
+
+                zenbakiak[contador] = int.Parse(erantzunaTBX.Text);
+                erantzunaTBX.private int[] zenbakiak = new int[4];
+private int contador = 0;
+
+private void hurrengoa(object sender, RoutedEventArgs e)
+{
+    if (contador < 4)
+    {
+        testuaTB.Text = (contador + 1).ToString() + ".zenbakia";
+        zenbakiak[contador] = int.Parse(erantzunaTBX.Text);
+        erantzunaTBX.Clear();
+        contador++;
+    }
+    else
+    {
+        // compute result using zenbakiak[0..3]
+    }
+}Clear();
+            }
+            else
+            {
+                double emaitza = (zenbakiak[0] + (zenbakiak[0] * zenbakiak[1]) + (zenbakiak[1] * zenbakiak[2]) + (zenbakiak[2] * zenbakiak[3]));
+
+                formulario2 formulario = new formulario2(emaitza);
+
+                formulario.erantzunaTBX2.Text = emaitza.ToString();
+                formulario.Show();
+                this.Hide();
+            }
+        }
+
+        private void irten(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+    }
+
+}

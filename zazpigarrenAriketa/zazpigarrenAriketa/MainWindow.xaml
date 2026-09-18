@@ -1,0 +1,106 @@
+﻿<Window x:Class="zazpigarrenAriketa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Kalkulagailua"
+        Width="255"
+        Height="305"
+        MinWidth="255"
+        MinHeight="305"
+        MaxWidth="255"
+        MaxHeight="305"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="#EEF0F2">
+    <Window.Resources>
+        <Style x:Key="CalculatorButton" TargetType="Button">
+            <Setter Property="Margin" Value="4" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="#2D3338" />
+            <Setter Property="Background" Value="#F4F5F6" />
+            <Setter Property="BorderBrush" Value="#AAB1B8" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="2">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#E1E7EC" />
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#CBD5DE" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="5,7,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="8" />
+            <RowDefinition Height="38" />
+            <RowDefinition Height="38" />
+            <RowDefinition Height="38" />
+            <RowDefinition Height="38" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5"
+                Background="#FFF966"
+                BorderBrush="#D3D35A"
+                BorderThickness="1"
+                Padding="5,0">
+            <TextBlock Text="0,"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"
+                       FontFamily="Segoe UI"
+                       FontSize="22"
+                       FontWeight="Bold"
+                       Foreground="#202020" 
+                       x:Name="pantalla"/>
+        </Border>
+
+        <Button Grid.Row="2" Grid.Column="0" Content="7" Style="{StaticResource CalculatorButton}" Click="clickZenbaki"/>
+        <Button Grid.Row="2" Grid.Column="1" Content="8" Style="{StaticResource CalculatorButton}" Click="clickZenbaki"/>
+        <Button Grid.Row="2" Grid.Column="2" Content="9" Style="{StaticResource CalculatorButton}" Click="clickZenbaki"/>
+        <Button Grid.Row="2" Grid.Column="3" Content="C" Style="{StaticResource CalculatorButton}" Click="c_Click"/>
+        <Button Grid.Row="2" Grid.Column="4" Content="CE" Style="{StaticResource CalculatorButton}" Click="ce_Click"/>
+
+            <Button Grid.Row="3" Grid.Column="0" Content="4" Style="{StaticResource CalculatorButton}" Click="clickZenbaki"/>
+        <Button Grid.Row="3" Grid.Column="1" Content="5" Style="{StaticResource CalculatorButton}" Click="clickZenbaki"/>
+                <Button Grid.Row="3" Grid.Column="2" Content="6" Style="{StaticResource CalculatorButton}" Click="clickZenbaki"/>
+        <Button Grid.Row="3" Grid.Column="3" Content="/" Style="{StaticResource CalculatorButton}" Click="operacionClick"/>
+        <Button Grid.Row="3" Grid.Column="4" Content="-" Style="{StaticResource CalculatorButton}" Click="operacionClick"/>
+
+                <Button Grid.Row="4" Grid.Column="0" Content="1" Style="{StaticResource CalculatorButton}" Click="clickZenbaki"/>
+        <Button Grid.Row="4" Grid.Column="1" Content="2" Style="{StaticResource CalculatorButton}" Click="clickZenbaki"/>
+                    <Button Grid.Row="4" Grid.Column="2" Content="3" Style="{StaticResource CalculatorButton}" Click="clickZenbaki"/>
+        <Button Grid.Row="4" Grid.Column="3" Content="x" Style="{StaticResource CalculatorButton}" Click="operacionClick"/>
+        <Button Grid.Row="4" Grid.Column="4" Content="+" Style="{StaticResource CalculatorButton}" Click="operacionClick"/>
+
+        <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Content="0" Style="{StaticResource CalculatorButton}" Click="clickZenbaki"/>
+        <Button Grid.Row="5" Grid.Column="2" Content="," Style="{StaticResource CalculatorButton}" Click="coma_Click"/>
+        <Button Grid.Row="5" Grid.Column="3" Content="=" Style="{StaticResource CalculatorButton}" Click="igualClick"/>
+        <Button Grid.Row="5" Grid.Column="4" Content="%" Style="{StaticResource CalculatorButton}" Click="porcentajeClick"/>
+    </Grid>
+</Window>

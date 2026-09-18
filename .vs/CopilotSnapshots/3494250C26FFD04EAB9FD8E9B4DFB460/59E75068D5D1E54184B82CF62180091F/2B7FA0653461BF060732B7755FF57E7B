@@ -1,0 +1,25 @@
+﻿<Window x:Class="Bostgarren_Ariketa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bostgarren_Ariketa"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="95,8,-95,-8">
+        <Label Content="PROBAKO TESTUA" HorizontalAlignment="Left" Height="48" Margin="297,41,0,0" VerticalAlignment="Top" Width="162"/>
+        <Button Content="Comic Sans" HorizontalAlignment="Left" Height="41" Margin="59,117,0,0" VerticalAlignment="Top" Width="91" Click="comicSans"/>
+        <Button Content="Courier" HorizontalAlignment="Left" Height="41" Margin="59,176,0,0" VerticalAlignment="Top" Width="91" Click="Courier"/>
+        <Button Content="Lodia" HorizontalAlignment="Left" Height="41" Margin="181,117,0,0" VerticalAlignment="Top" Width="91" Click="lodia"/>
+        <Button Content="Etzana" HorizontalAlignment="Left" Height="41" Margin="181,176,0,0" VerticalAlignment="Top" Width="91" Click="etzana"/>
+        <Button Content="Marratua" HorizontalAlignment="Left" Height="41" Margin="305,117,0,0" VerticalAlignment="Top" Width="91" Click="marratua"/>
+        <Button Content="Azpimarratua" HorizontalAlignment="Left" Height="41" Margin="305,176,0,0" VerticalAlignment="Top" Width="91" Click="azpimarratua"/>
+        <Button Content="+Tamaina" HorizontalAlignment="Left" Height="41" Margin="427,117,0,0" VerticalAlignment="Top" Width="91" Click="tamainaHanditu"/>
+        <Button Content="-Tamaina" HorizontalAlignment="Left" Height="41" Margin="427,176,0,0" VerticalAlignment="Top" Width="91" Click="tamainaTxikitu"/>
+        <Button Content="Hautatu" HorizontalAlignment="Left" Height="41" Margin="427,261,0,0" VerticalAlignment="Top" Width="91" Click="hautatu"/>
+        <Button Content="Irten" HorizontalAlignment="Left" Height="41" Margin="427,326,0,0" VerticalAlignment="Top" Width="91" Click="irten"/>
+        <TextBlock x:Name="texto" HorizontalAlignment="Left" Height="102" Margin="59,244,0,0" TextWrapping="Wrap" Text="Hau izango da hautatutako testua" VerticalAlignment="Top" Width="319"/>
+        <TextBlock HorizontalAlignment="Left" Height="41" Margin="119,372,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="259"/>
+
+    </Grid>
+</Window>

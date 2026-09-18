@@ -1,0 +1,16 @@
+﻿<Window x:Class="HirugarrenAriketa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HirugarrenAriketa"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="testuaTB" HorizontalAlignment="Left" Height="38" Margin="170,144,0,0" TextWrapping="Wrap" Text="Emaitza" VerticalAlignment="Top" Width="136"/>
+        <TextBox x:Name="erantzunaTBX2" HorizontalAlignment="Left" Height="19" Margin="371,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="252"/>
+        <Button x:Name="garbitu" Content="Garbitu" HorizontalAlignment="Left" Height="49" Margin="170,232,0,0" VerticalAlignment="Top" Width="167" Click="garbitu"/>
+        <Button x:Name="irtenBT" Content="Irten" HorizontalAlignment="Left" Height="49" Margin="414,232,0,0" VerticalAlignment="Top" Width="166" Click="irten"/>
+
+    </Grid>
+</Window>

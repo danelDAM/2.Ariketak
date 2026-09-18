@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ik012982i18\\source\\repos\\Lehenengo-Ariketak\\LaugarrenAriketa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0572B0F1-7BA8-8591-220F-B6427277E43E}|LaugarrenAriketa\\LaugarrenAriketa.csproj|c:\\users\\ik012982i18\\source\\repos\\lehenengo-ariketak\\laugarrenariketa\\laugarrenariketa\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0572B0F1-7BA8-8591-220F-B6427277E43E}|LaugarrenAriketa\\LaugarrenAriketa.csproj|solutionrelative:laugarrenariketa\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572B0F1-7BA8-8591-220F-B6427277E43E}|LaugarrenAriketa\\LaugarrenAriketa.csproj|c:\\users\\ik012982i18\\source\\repos\\lehenengo-ariketak\\laugarrenariketa\\laugarrenariketa\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0572B0F1-7BA8-8591-220F-B6427277E43E}|LaugarrenAriketa\\LaugarrenAriketa.csproj|solutionrelative:laugarrenariketa\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 150,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ik012982i18\\source\\repos\\Lehenengo-Ariketak\\LaugarrenAriketa\\LaugarrenAriketa\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LaugarrenAriketa\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ik012982i18\\source\\repos\\Lehenengo-Ariketak\\LaugarrenAriketa\\LaugarrenAriketa\\MainWindow.xaml",
+              "RelativeToolTip": "LaugarrenAriketa\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-11T11:02:24.41Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 150,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ik012982i18\\source\\repos\\Lehenengo-Ariketak\\LaugarrenAriketa\\LaugarrenAriketa\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LaugarrenAriketa\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ik012982i18\\source\\repos\\Lehenengo-Ariketak\\LaugarrenAriketa\\LaugarrenAriketa\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LaugarrenAriketa\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T11:02:23.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+﻿using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace SeigarrenAriketa
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+
+            kaxak = new TextBox[3] { lehenengoTestua, bigarrengoTestua, hirugarrengoTestua };
+        }
+
+        string testua = "";
+
+        private void enter (object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                TextBox actual = (TextBox)sender;
+
+                int posizioa = Array.IndexOf(kaxak, actual);
+                int hurregoPosizioa = (posizioa +1) % kaxak.Length;
+
+                kaxak[hurregoPosizioa].Text = actual.Text;
+                actual.Clear();
+                kaxak[hurregoPosizioa].Focus();
+
+            }
+        }
+    }
+}

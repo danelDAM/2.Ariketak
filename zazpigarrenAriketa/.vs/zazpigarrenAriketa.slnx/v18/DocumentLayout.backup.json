@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ik012982i18\\source\\repos\\Lehenengo-Ariketak\\zazpigarrenAriketa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B76F31FC-CF9D-AF56-6056-543BE373AD7D}|zazpigarrenAriketa\\zazpigarrenAriketa.csproj|c:\\users\\ik012982i18\\source\\repos\\lehenengo-ariketak\\zazpigarrenariketa\\zazpigarrenariketa\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76F31FC-CF9D-AF56-6056-543BE373AD7D}|zazpigarrenAriketa\\zazpigarrenAriketa.csproj|solutionrelative:zazpigarrenariketa\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76F31FC-CF9D-AF56-6056-543BE373AD7D}|zazpigarrenAriketa\\zazpigarrenAriketa.csproj|c:\\users\\ik012982i18\\source\\repos\\lehenengo-ariketak\\zazpigarrenariketa\\zazpigarrenariketa\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B76F31FC-CF9D-AF56-6056-543BE373AD7D}|zazpigarrenAriketa\\zazpigarrenAriketa.csproj|solutionrelative:zazpigarrenariketa\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 150,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ik012982i18\\source\\repos\\Lehenengo-Ariketak\\zazpigarrenAriketa\\zazpigarrenAriketa\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "zazpigarrenAriketa\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ik012982i18\\source\\repos\\Lehenengo-Ariketak\\zazpigarrenAriketa\\zazpigarrenAriketa\\MainWindow.xaml*",
+              "RelativeToolTip": "zazpigarrenAriketa\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-14T08:34:36.232Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 150,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ik012982i18\\source\\repos\\Lehenengo-Ariketak\\zazpigarrenAriketa\\zazpigarrenAriketa\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "zazpigarrenAriketa\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ik012982i18\\source\\repos\\Lehenengo-Ariketak\\zazpigarrenAriketa\\zazpigarrenAriketa\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "zazpigarrenAriketa\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAxwG8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:34:35.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

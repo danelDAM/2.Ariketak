@@ -1,0 +1,30 @@
+﻿using System.Windows;
+
+namespace HirugarrenAriketa
+{
+    /// <summary>
+    /// Interaction logic for formulario2.xaml
+    /// </summary>
+    public partial class formulario2 : Window
+    {
+        public formulario2()
+        {
+            InitializeComponent();
+        }
+
+        public formulario2(double value) : this()
+        {
+            testuaTB.Text = value.ToString();
+        }
+
+        private void garbitu(object sender, RoutedEventArgs e)
+        {
+            erantzunaTBX2.Clear();
+        }
+
+        private void irten(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+    }
+}
